@@ -17,7 +17,7 @@ body {
     background-color: #e6e6e6;
 }
 .banner-pane {
-    height: 480px;
+    height: 482px;
     position: relative;
 }
 .content-title-pane {
@@ -44,13 +44,15 @@ body {
     margin: 30px auto;
     height: 2px;
     width: 60%;
-    background: transparent url("./Great Books Reading Programs _ HOME_files/gradient_separator.png") no-repeat 0 0;
+    background: transparent url("gradient_separator.png") no-repeat 0 0;
+    background-size: contain;
 }
 .book-bordered {
     margin: 35px auto;
     height: 35px;
     width: 60%;
-    background: transparent url("./Great Books Reading Programs _ HOME_files/book_separator.png") no-repeat 0 0;
+    background: transparent url("book_separator.png") no-repeat 0 0;
+    background-size: contain;
 }
 ul.content-list {
     list-style-type: disc;
@@ -216,7 +218,7 @@ ul.content-list > li > span {
     height: auto;
 }
 .middle-tabbar-pane {
-    background: url("./Great Books Reading Programs _ HOME_files/pg_tabbar_back.jpg") no-repeat;
+    background: url("pg_tabbar_back.jpg") no-repeat;
     background-size: 100%;
     padding: 10px 100px 10px 100px;
 }
@@ -305,7 +307,14 @@ ul.content-list > li > span {
     .title1 {
         font-size: 30px;
     }
-
+    .gradient-bordered {
+        margin: 10px auto;
+        width: 100%;
+    }
+    .book-bordered {
+        margin: 15px auto;
+        width: 100%;   
+    }
 }
 
 @media (max-width: 768px) {
